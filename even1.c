@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-	int n,t;
+	int a,s;
 	printf("enter number");
-	scanf("%d",&n);
-	t=n;
-	if(n%2==0)
+	scanf("%d",&a);
+	s=a;
+	if(a%2==0)
 	{
-		printf("%d",n);
+		printf("%d",a);
 	}
     else
     {
-    	t--;
-    	printf("%d",t);
+    	s--;
+    	printf("%d",s);
     }
 }
